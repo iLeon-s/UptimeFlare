@@ -16,7 +16,7 @@ const workerConfig = {
   monitors: [
     // Hitches's Blog
     {
-      id: 'mcls0000',
+      id: 'site0001',
       name: 'Hitch Blog on Blogger',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
