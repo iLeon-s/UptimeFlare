@@ -3,9 +3,9 @@ const pageConfig = {
   title: "McLeon's Server Status",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://github.com/lyc8503', label: 'GitHub' },
-    { link: 'https://blog.lyc8503.net/', label: 'Blog' },
-    { link: 'mailto:me@lyc8503.net', label: 'Email Me', highlight: true },
+    { link: 'https://github.com/mcl2048', label: 'GitHub' },
+    { link: 'https://jafe.nl.eu.org', label: 'Blog' },
+    { link: 'mailto:mcleon@tuta.io', label: 'Email Me', highlight: true },
   ],
 }
 
