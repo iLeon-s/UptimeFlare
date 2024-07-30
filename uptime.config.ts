@@ -1,6 +1,6 @@
 const pageConfig = {
   // Title for your status page
-  title: "lyc8503's Status Page",
+  title: "McLeon's Server Status",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://github.com/lyc8503', label: 'GitHub' },
@@ -58,14 +58,36 @@ const workerConfig = {
       timeout: 5000,
     },
     {
-      id: 'test_tcp_monitor',
+      id: 'mcls0001',
       name: 'Linux1 Cache - McLeon',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
       target: '148.100.112.190:10518',
-      tooltip: 'My production server SSH',
-      statusPageLink: 'https://example.com',
+      tooltip: 'My production server Cache port',
+      statusPageLink: 'http://148.100.112.190:10518',
+      timeout: 5000,
+    },
+    {
+      id: 'mcls0002',
+      name: 'Linux1 Cache - LinuxOne',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'TCP_PING',
+      // `target` should be `host:port` for tcp monitors
+      target: '148.100.77.164:10518',
+      tooltip: 'My production server Cache port',
+      statusPageLink: 'http://148.100.77.164:10518',
+      timeout: 5000,
+    },
+    {
+      id: 'mcls0003',
+      name: 'Linux1 Cache - McLeonis',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'TCP_PING',
+      // `target` should be `host:port` for tcp monitors
+      target: '148.100.112.212:10518',
+      tooltip: 'My production server Cache port',
+      statusPageLink: 'http://148.100.77.164:10518',
       timeout: 5000,
     },
   ],
