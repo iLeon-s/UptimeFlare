@@ -87,7 +87,7 @@ const workerConfig = {
       // `target` should be `host:port` for tcp monitors
       target: '148.100.112.212:10518',
       tooltip: 'My production server Cache port',
-      statusPageLink: 'http://148.100.77.164:10518',
+      statusPageLink: 'http://148.100.112.212:10518',
       timeout: 5000,
     },
   ],
