@@ -98,9 +98,9 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: 'hz-de2.belgium.dns.navy:443',
+      target: 'hz-de2.belgium.dns.navy:3443',
       tooltip: 'My production server Cache port',
-      statusPageLink: 'http://hz-de2.belgium.dns.navy:10518',
+      statusPageLink: 'http://hz-de2.belgium.dns.navy:3443',
       timeout: 5000,
     },
   ],
