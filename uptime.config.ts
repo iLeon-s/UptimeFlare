@@ -21,7 +21,7 @@ const workerConfig = {
       // `name` is used at status page and callback message
       name: 'Jafe Homelab',
       // `method` should be a valid HTTP Method
-      method: 'GET',
+      method: 'POST',
       // `target` is a valid URL
       target: 'https://jafe.nl.eu.org',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
@@ -79,6 +79,28 @@ const workerConfig = {
       target: '148.100.112.212:10518',
       tooltip: 'My production server Cache port',
       statusPageLink: 'http://148.100.112.212:10518',
+      timeout: 5000,
+    },
+    {
+      id: 'mcls0004',
+      name: 'Hetzner DE',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'TCP_PING',
+      // `target` should be `host:port` for tcp monitors
+      target: '[2a01:4f8:221:26cc::241]:10518',
+      tooltip: 'My production server Cache port',
+      statusPageLink: 'http://[2a01:4f8:221:26cc::241]:10518',
+      timeout: 5000,
+    },
+    {
+      id: 'mcls0005',
+      name: 'Hetzner DE 2',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'TCP_PING',
+      // `target` should be `host:port` for tcp monitors
+      target: '[2a01:4f8:221:26cc::253]:10518',
+      tooltip: 'My production server Cache port',
+      statusPageLink: 'http://[2a01:4f8:221:26cc::253]:10518',
       timeout: 5000,
     },
   ],
