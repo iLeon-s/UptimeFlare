@@ -87,7 +87,7 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: '[2a01:4f8:221:26cc::241]:10518',
+      target: 'hz-de1.belgium.dns.navy:10518',
       tooltip: 'My production server Cache port',
       statusPageLink: 'http://[2a01:4f8:221:26cc::241]:10518',
       timeout: 5000,
@@ -98,7 +98,7 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: '[2a01:4f8:221:26cc::253]:10518',
+      target: 'hz-de1.belgium.dns.navy:10518',
       tooltip: 'My production server Cache port',
       statusPageLink: 'http://[2a01:4f8:221:26cc::253]:10518',
       timeout: 5000,
