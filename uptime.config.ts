@@ -19,15 +19,15 @@ const workerConfig = {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'foo_monitor',
       // `name` is used at status page and callback message
-      name: 'My API Monitor',
+      name: 'Jafe Homelab',
       // `method` should be a valid HTTP Method
-      method: 'POST',
+      method: 'GET',
       // `target` is a valid URL
-      target: 'https://example.com',
+      target: 'https://jafe.nl.eu.org',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://example.com',
+      statusPageLink: 'https://jafe.nl.eu.org',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
@@ -45,21 +45,10 @@ const workerConfig = {
       // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
       checkLocationWorkerRoute: 'https://xxx.example.com',
     },
-    // Example TCP Monitor
-    {
-      id: 'test_tcp_monitor',
-      name: 'Example TCP Monitor',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'TCP_PING',
-      // `target` should be `host:port` for tcp monitors
-      target: '1.2.3.4:22',
-      tooltip: 'My production server SSH',
-      statusPageLink: 'https://example.com',
-      timeout: 5000,
-    },
+    // Linux1 Cache - 148.100.112.190
     {
       id: 'mcls0001',
-      name: 'Linux1 Cache - McLeon',
+      name: 'Linux1 Cache - 148.100.112.190',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
@@ -68,9 +57,10 @@ const workerConfig = {
       statusPageLink: 'http://148.100.112.190:10518',
       timeout: 5000,
     },
+    // Linux1 Cache - 148.100.77.164
     {
       id: 'mcls0002',
-      name: 'Linux1 Cache - LinuxOne',
+      name: 'Linux1 Cache - 148.100.77.164',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
@@ -79,9 +69,10 @@ const workerConfig = {
       statusPageLink: 'http://148.100.77.164:10518',
       timeout: 5000,
     },
+    // Linux1 Cache - 148.100.112.212
     {
       id: 'mcls0003',
-      name: 'Linux1 Cache - McLeonis',
+      name: 'Linux1 Cache - 148.100.112.212',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
