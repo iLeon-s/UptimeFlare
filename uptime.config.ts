@@ -57,6 +57,17 @@ const workerConfig = {
       statusPageLink: 'https://example.com',
       timeout: 5000,
     },
+    {
+      id: 'test_tcp_monitor',
+      name: 'Linux1 Cache - McLeon',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'TCP_PING',
+      // `target` should be `host:port` for tcp monitors
+      target: '148.100.112.190:10518',
+      tooltip: 'My production server SSH',
+      statusPageLink: 'https://example.com',
+      timeout: 5000,
+    },
   ],
   notification: {
     // [Optional] apprise API server URL
