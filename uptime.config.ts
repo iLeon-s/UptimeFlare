@@ -27,13 +27,13 @@ const workerConfig = {
       timeout: 5000,
     {
       id: 'mcls0005',
-      name: 'Hetzner DE 2',
+      name: 'Fly.io SE 1',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: 'hz-de2.belgium.dns.navy:3443',
+      target: 'fly-se1.belgium.dns.navy:443',
       tooltip: 'My production server Cache port',
-      statusPageLink: 'http://fly-se1.belgium.dns.navy:3443',
+      statusPageLink: 'http://fly-se1.belgium.dns.navy:443',
       timeout: 5000,
     },
     // Linux1 Cache - 148.100.112.190
