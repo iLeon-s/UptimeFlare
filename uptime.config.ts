@@ -25,6 +25,7 @@ const workerConfig = {
       tooltip: 'My production server Cache port',
       statusPageLink: 'https://hitch.bln.pp.ua',
       timeout: 5000,
+    },
     {
       id: 'fly0001',
       name: 'Fly.io SE 1',
