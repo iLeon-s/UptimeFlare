@@ -26,7 +26,7 @@ const workerConfig = {
       statusPageLink: 'https://hitch.bln.pp.ua',
       timeout: 5000,
     {
-      id: 'mcls0005',
+      id: 'fly0001',
       name: 'Fly.io SE 1',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
