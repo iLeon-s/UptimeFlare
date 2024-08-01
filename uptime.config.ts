@@ -95,6 +95,28 @@ const workerConfig = {
       statusPageLink: 'http://hz-de2.belgium.dns.navy:3443',
       timeout: 5000,
     },
+    {
+      id: 'mcls0006',
+      name: 'Hax.co.id OpenVZ US 3 - 1',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'TCP_PING',
+      // `target` should be `host:port` for tcp monitors
+      target: 'hax-us1.belgium.dns.navy:10518',
+      tooltip: 'My production server Cache port',
+      statusPageLink: 'http://hax-us1.belgium.dns.navy:10518',
+      timeout: 5000,
+    },
+    {
+      id: 'mcls0007',
+      name: 'Hax.co.id OpenVZ US 3 - 2',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'TCP_PING',
+      // `target` should be `host:port` for tcp monitors
+      target: 'hax-us2.belgium.dns.navy:10518',
+      tooltip: 'My production server Cache port',
+      statusPageLink: 'http://hax-us2.belgium.dns.navy:10518',
+      timeout: 5000,
+    },
   ],
   notification: {
     // [Optional] apprise API server URL
