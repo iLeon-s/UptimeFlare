@@ -101,9 +101,9 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: 'hax-us1.belgium.dns.navy:443',
+      target: 'hax-us1.belgium.dns.navy:22',
       tooltip: 'My production server Cache port',
-      statusPageLink: 'http://hax-us1.belgium.dns.navy:443',
+      statusPageLink: 'http://hax-us1.belgium.dns.navy:22',
       timeout: 5000,
     },
     {
@@ -112,9 +112,9 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: 'hax-us2.belgium.dns.navy:10518',
+      target: 'hax-us2.belgium.dns.navy:22',
       tooltip: 'My production server Cache port',
-      statusPageLink: 'http://hax-us2.belgium.dns.navy:10518',
+      statusPageLink: 'http://hax-us2.belgium.dns.navy:22',
       timeout: 5000,
     },
     {
@@ -123,9 +123,9 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: 'hax-us3.belgium.dns.navy:10518',
+      target: 'hax-us3.belgium.dns.navy:22',
       tooltip: 'My production server Cache port',
-      statusPageLink: 'http://hax-us3.belgium.dns.navy:10518',
+      statusPageLink: 'http://hax-us3.belgium.dns.navy:22',
       timeout: 5000,
     },
   ],
