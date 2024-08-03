@@ -134,7 +134,7 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: 'pasyun-it.belgium.dns.navy:22',
+      target: 'pasyun-it.belgium.dns.navy:443',
       tooltip: 'My production server Cache port',
       statusPageLink: 'http://pasyun-it.belgium.dns.navy:443',
       timeout: 5000,
@@ -145,7 +145,7 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: 'ahui-us.belgium.dns.navy:22',
+      target: 'ahui-us.belgium.dns.navy:443',
       tooltip: 'My production server Cache port',
       statusPageLink: 'http://ahui-us.belgium.dns.navy:443',
       timeout: 5000,
