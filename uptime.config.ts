@@ -114,7 +114,7 @@ const workerConfig = {
       // `target` should be `host:port` for tcp monitors
       target: 'hax-us2.belgium.dns.navy:22',
       tooltip: 'My production server Cache port',
-      statusPageLink: 'http://hax-us2.belgium.dns.navy:22',
+      statusPageLink: 'http://hax-us2.belgium.dns.navy:443',
       timeout: 5000,
     },
     {
@@ -125,7 +125,29 @@ const workerConfig = {
       // `target` should be `host:port` for tcp monitors
       target: 'hax-us3.belgium.dns.navy:22',
       tooltip: 'My production server Cache port',
-      statusPageLink: 'http://hax-us3.belgium.dns.navy:22',
+      statusPageLink: 'http://hax-us3.belgium.dns.navy:443',
+      timeout: 5000,
+    },
+    {
+      id: 'mcls0009',
+      name: 'Pasyun - Italy',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'TCP_PING',
+      // `target` should be `host:port` for tcp monitors
+      target: 'pasyun-it.belgium.dns.navy:22',
+      tooltip: 'My production server Cache port',
+      statusPageLink: 'http://pasyun-it.belgium.dns.navy:443',
+      timeout: 5000,
+    },
+    {
+      id: 'mcls0010',
+      name: 'Ahui Yun - US',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'TCP_PING',
+      // `target` should be `host:port` for tcp monitors
+      target: 'ahui-us.belgium.dns.navy:22',
+      tooltip: 'My production server Cache port',
+      statusPageLink: 'http://ahui-us.belgium.dns.navy:443',
       timeout: 5000,
     },
   ],
