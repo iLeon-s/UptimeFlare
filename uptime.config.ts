@@ -74,6 +74,28 @@ const workerConfig = {
       timeout: 5000,
     },
     {
+      id: 'mcls0011',
+      name: 'Linux1 Outbound - Kalis - 148.100.79.166',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'TCP_PING',
+      // `target` should be `host:port` for tcp monitors
+      target: '148.100.79.166:443',
+      tooltip: 'My production server Cache port',
+      statusPageLink: 'http://148.100.79.166:443',
+      timeout: 5000,
+    },
+    {
+      id: 'mcls0012',
+      name: 'Linux1 Cache - Kali - 148.100.76.25',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'TCP_PING',
+      // `target` should be `host:port` for tcp monitors
+      target: '148.100.76.25:11518',
+      tooltip: 'My production server Cache port',
+      statusPageLink: 'http://148.100.76.25:11518',
+      timeout: 5000,
+    },
+    {
       id: 'mcls0004',
       name: 'Hetzner DE',
       // `method` should be `TCP_PING` for tcp monitors
